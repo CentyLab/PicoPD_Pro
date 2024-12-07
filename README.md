@@ -76,43 +76,43 @@ To enable Serial debug, there are 3 main methods:
 
 # Arduino IDE setup
 Open Arduino IDE, select File -> Preference
-![Preference](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc1.png?raw=true)
+![Preference](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc1.png?raw=true)
 
 Copy this line below and place in "Aditional Boards Manager URLs" -> OK. This will allow you to pull the Earlephilhower Pico core that work with the AP33772 library.
 
 ```
 https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
 ```
-![boardmanagerURL](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc2.png?raw=true)
+![boardmanagerURL](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc2.png?raw=true)
 
 From Board Manager, search for "Pico" and install the "Raspberry Pi Pico/RP2040" core by Earlephilhower
 
-![boardmanager](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc3.png?raw=true)
+![boardmanager](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc3.png?raw=true)
 
 Now from Tool -> Board -> Raspberry Pi Pico/RP2040 -> Raspberry Pi Pico
 
-![boardmanager](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc4.png?raw=true)
+![boardmanager](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc4.png?raw=true)
 
 Now download the latest AP33772 library as a Zip file
 
 ```
 https://github.com/CentyLab/AP33772S-Cpp
 ```
-![ap33772lib](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc5.png?raw=true)
+![ap33772lib](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc5.png?raw=true)
 
 Import the AP33772S library into your Arduino IDE. Sketch -> Include library -> Add .ZIP Library ...
 
-![importlib](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc6.png?raw=true)
+![importlib](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc6.png?raw=true)
 
 Now you start using the Example code in File -> Examples -> AP33772-Cpp-main. The example is ready to compile and flash on to your PicoPD.
-![importlib](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc8.png?raw=true)
+![importlib](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc8.png?raw=true)
 
 Now you can plug in your USB-C cable with Power Delivery 2.0/3.0/3.1. If you also like to have serial print out, check out [Enable Serial print for debugging](#enable-serial-debug).
 
 # VSCode PlatformIO setup
 After [VSCode](https://code.visualstudio.com/) installation, you will need to install PlatformIO extension.
 
-![installplatform](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc9.png?raw=true)
+![installplatform](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc9.png?raw=true)
 
 Now create a new PlatformIO project
 + Name:WhatEverYouWantToCallit
@@ -121,9 +121,9 @@ Now create a new PlatformIO project
 
 Click "Finish"
 
-![newproject](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc10.png?raw=true)
+![newproject](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc10.png?raw=true)
 
-![boardandframework](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc11.png?raw=true)
+![boardandframework](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc11.png?raw=true)
 
 In your new project, copy this and replace everything in platformio.ini. This is how you ask PlatformIO to compile using Earlephilhower Pico core, and enable upload via USB.
 
@@ -145,16 +145,16 @@ Now download the latest AP33772 library as a Zip file. Unzip and place the folde
 https://github.com/CentyLab/AP33772-Cpp
 ```
 
-![ap33772lib](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc5.png?raw=true)
+![ap33772lib](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc5.png?raw=true)
 
 Your lib folder should look like this
 
-![libstructur](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc12.png?raw=truee)
+![libstructur](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc12.png?raw=true)
 
 To try out example code, you copy the content inside `lib/Compiled for PicoPD/PPSCycling/PPSCycling.ino`, And replace everything in your `src/main.cpp`
 
-![maincpp](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc13.png?raw=true)
+![maincpp](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc13.png?raw=true)
 
 Now you can plug the PicoPD to your computer via USB-C and hit the upload button. After this, you will have to connect a charger to PicoPD to see the voltage cycling example. If you also like to have serial print out, check out [Enable Serial print for debugging](#enable-serial-debug).
 
-![maincpp](https://github.com/CentyLab/PicoPD/blob/main/Documentation/doc14.png?raw=true)
+![maincpp](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc14.png?raw=true)
