@@ -64,7 +64,7 @@ Calling `usbpd.displayProfiles()` without `Serial.begin()` can soft-brick your P
 
 # Enable Serial Debug
 
-To enable Serial debug, there are 3 main methods:
+To enable Serial debug, there are 2 main methods:
 
 **Using USB-C Power/Data splitter (easiest):** Use a USB-C Splitter that separates the USB 2.0 signal into another USB-C port. You only need USB 2.0 FullSpeed (12Mbps) for the job, but never hurts to get extra speed if needed later. 
 
@@ -142,7 +142,7 @@ upload_protocol = picotool
 Now download the latest AP33772 library as a Zip file. Unzip and place the folder in `lib`
 
 ```
-https://github.com/CentyLab/AP33772-Cpp
+https://github.com/CentyLab/AP33772S-Cpp
 ```
 
 ![ap33772lib](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/doc5.png?raw=true)
