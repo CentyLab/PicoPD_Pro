@@ -62,6 +62,8 @@ readTemp();         //Return temperature in C
 
 Calling `usbpd.displayProfiles()` without `Serial.begin()` can soft-brick your PicoPD. Causing the IC to be non-recognizable by your computer. You will have to use PicoProbe to reflash the chip. Check out @Patronics [PicoProbePCB](https://github.com/Patronics/PicoProbePCB) if you would like to make a stable fixture for firmware debugging.
 
+If you want to use PicoPD Pro as an AP33772S evalulation board with your own micro-controller, flash the board with **AP33772S_Eval.uf2** using the drag and drop method. This firmware will config GP0 and GP1 as INPUT to prevent I2C interferance with your own add on micro-controller like ESP32 or STM32.
+
 # Enable Serial Debug
 
 To enable Serial debug, there are 2 main methods:
