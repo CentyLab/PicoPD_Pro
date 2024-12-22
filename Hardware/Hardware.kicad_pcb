@@ -104,6 +104,8 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(aux_axis_origin 89.187 33.193)
+		(grid_origin 89.187 33.193)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -3236,6 +3238,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37e53928-4ea8-4a8f-89e0-bda8ca09a458")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92533412-7a66-432f-817d-368453a51e0b")
 			(effects
 				(font
 					(size 1 1)
@@ -8234,7 +8249,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C12624"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9065,7 +9080,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C12624"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
