@@ -1,8 +1,10 @@
 # PicoPD Pro
-Pico PD Pro is a development board for USB Power Delivery development with Raspberry Pi Pico footprint. The board can help you negotiate voltage from USB PD 3.1 with PPS (programable power supply) and AVS (Adjustable Voltage Supply) up to 5A of current at 30V max. The board feature input current/voltage/temperture reading as well as power switch to cut of the current to external devices.
+Pico PD Pro is a development board for USB Power Delivery development with Raspberry Pi Pico footprint. The board can help you negotiate voltage from USB PD 3.1 with PPS (programable power supply) and AVS (Adjustable Voltage Supply) up to 5A of current at 30V max. The board feature input current/voltage/temperture reading as well as power switch to cut of the current to external devices. The 30V voltage limit is the max input voltage of the AP33772S IC.
 
 # Quick links
-[AP33772S Library](https://github.com/CentyLab/AP33772S-Cpp)
+[AP33772S Cpp Library](https://github.com/CentyLab/AP33772S-Cpp)
+
+[AP33772S CircuitPython Library](https://github.com/hansendc/CircuitPython_AP33772s/) -> Big thanks to [@hansendc](https://github.com/hansendc)
 
 [PicoPD Pro Pinout](#picopd-pro-pinout)
 
