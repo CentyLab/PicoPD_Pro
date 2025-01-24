@@ -1,3 +1,6 @@
 [submodule "Software"]
 	path = Software
 	url = https://github.com/CentyLab/AP33772S-Cpp.git
+[submodule "Firmware_CircuitPython"]
+	path = Firmware_CircuitPython
+	url = https://github.com/hansendc/CircuitPython_AP33772s.git
