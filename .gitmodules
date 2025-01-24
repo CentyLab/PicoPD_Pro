@@ -4,3 +4,6 @@
 [submodule "Firmware_CircuitPython"]
 	path = Firmware_CircuitPython
 	url = https://github.com/hansendc/CircuitPython_AP33772s.git
+[submodule "Firmware_Cpp"]
+	path = Firmware_Cpp
+	url = https://github.com/CentyLab/AP33772S-Cpp
