@@ -15988,6 +15988,7 @@
 			(net 1 "GND")
 			(pinfunction "3")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "342374f4-f722-4bcd-a4b9-6451c944b0c3")
 		)
 		(pad "4" thru_hole roundrect
@@ -16058,6 +16059,7 @@
 			(net 1 "GND")
 			(pinfunction "8")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "50c1142d-14c0-4490-94e2-fa7b54b342c2")
 		)
 		(pad "9" thru_hole roundrect
@@ -16128,6 +16130,7 @@
 			(net 1 "GND")
 			(pinfunction "13")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "b781fd10-3154-4dba-a0e4-c0928e4af4d5")
 		)
 		(pad "14" thru_hole roundrect
@@ -16198,6 +16201,7 @@
 			(net 1 "GND")
 			(pinfunction "18")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "c3354f30-bb89-4600-b17b-63721aed3242")
 		)
 		(pad "19" thru_hole roundrect
@@ -16268,6 +16272,7 @@
 			(net 1 "GND")
 			(pinfunction "23")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "e13e6416-39b2-4b58-97b8-37969cb0c91c")
 		)
 		(pad "24" thru_hole roundrect
@@ -16338,6 +16343,7 @@
 			(net 1 "GND")
 			(pinfunction "28")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "a43532f4-203e-43f5-9f18-7f90b77dbd48")
 		)
 		(pad "29" thru_hole roundrect
@@ -16408,6 +16414,7 @@
 			(net 1 "GND")
 			(pinfunction "33")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "19348557-c622-4084-affb-394ab6cbaae5")
 		)
 		(pad "34" thru_hole roundrect
@@ -16464,6 +16471,7 @@
 			(net 1 "GND")
 			(pinfunction "37")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "9138330a-e3a5-4ce0-817c-7ef5ccf5f7dc")
 		)
 		(pad "38" thru_hole roundrect
@@ -16478,6 +16486,7 @@
 			(net 1 "GND")
 			(pinfunction "38")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "4732faaa-a05a-4b8e-99d2-f678aa0ee3b5")
 		)
 		(pad "39" thru_hole roundrect
@@ -16492,6 +16501,7 @@
 			(net 22 "/VBUS_SW")
 			(pinfunction "39")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "09de2133-d8eb-4fea-9d40-819424fb2f82")
 		)
 		(pad "40" thru_hole roundrect
@@ -16506,6 +16516,7 @@
 			(net 22 "/VBUS_SW")
 			(pinfunction "40")
 			(pintype "unspecified")
+			(zone_connect 2)
 			(uuid "f711354d-2f8a-4a8f-ba9f-6a1e1e2c08e0")
 		)
 		(pad "41" thru_hole roundrect
