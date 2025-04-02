@@ -15988,7 +15988,6 @@
 			(net 1 "GND")
 			(pinfunction "3")
 			(pintype "unspecified")
-			(zone_connect 2)
 			(uuid "342374f4-f722-4bcd-a4b9-6451c944b0c3")
 		)
 		(pad "4" thru_hole roundrect
@@ -16059,7 +16058,6 @@
 			(net 1 "GND")
 			(pinfunction "8")
 			(pintype "unspecified")
-			(zone_connect 2)
 			(uuid "50c1142d-14c0-4490-94e2-fa7b54b342c2")
 		)
 		(pad "9" thru_hole roundrect
@@ -16130,7 +16128,6 @@
 			(net 1 "GND")
 			(pinfunction "13")
 			(pintype "unspecified")
-			(zone_connect 2)
 			(uuid "b781fd10-3154-4dba-a0e4-c0928e4af4d5")
 		)
 		(pad "14" thru_hole roundrect
@@ -16201,7 +16198,6 @@
 			(net 1 "GND")
 			(pinfunction "18")
 			(pintype "unspecified")
-			(zone_connect 2)
 			(uuid "c3354f30-bb89-4600-b17b-63721aed3242")
 		)
 		(pad "19" thru_hole roundrect
@@ -16272,7 +16268,6 @@
 			(net 1 "GND")
 			(pinfunction "23")
 			(pintype "unspecified")
-			(zone_connect 2)
 			(uuid "e13e6416-39b2-4b58-97b8-37969cb0c91c")
 		)
 		(pad "24" thru_hole roundrect
@@ -16343,7 +16338,6 @@
 			(net 1 "GND")
 			(pinfunction "28")
 			(pintype "unspecified")
-			(zone_connect 2)
 			(uuid "a43532f4-203e-43f5-9f18-7f90b77dbd48")
 		)
 		(pad "29" thru_hole roundrect
@@ -16414,7 +16408,6 @@
 			(net 1 "GND")
 			(pinfunction "33")
 			(pintype "unspecified")
-			(zone_connect 2)
 			(uuid "19348557-c622-4084-affb-394ab6cbaae5")
 		)
 		(pad "34" thru_hole roundrect
@@ -17260,6 +17253,17 @@
 			(uuid "b94a2126-20a5-4719-88e4-2bc10d408184")
 		)
 	)
+	(gr_rect
+		(start 96.587 32.993)
+		(end 99.387 42.893)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "0d0a018e-93ba-4e17-b6bd-81f2ca63da89")
+	)
 	(gr_line
 		(start 96.6 76.884)
 		(end 96.6 77.9)
@@ -17279,6 +17283,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "55ff6c61-c171-4c49-8a11-1838a46ae6e1")
+	)
+	(gr_rect
+		(start 96.587 33.093)
+		(end 99.387 42.893)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "637085b4-d485-417a-a297-96b095aeb56d")
 	)
 	(gr_line
 		(start 81.9 64.184)
@@ -17400,7 +17415,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GND"
+	(gr_text "GND (HP)"
 		(at 96.5 39.668 0)
 		(layer "B.SilkS")
 		(uuid "0d354f06-9fae-4db6-b44c-ef5b76d5881c")
@@ -17541,8 +17556,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "VBUS"
-		(at 92.71 34.544 0)
+	(gr_text "VBUS\n(HP)"
+		(at 92.71 35.193 0)
 		(layer "B.SilkS")
 		(uuid "51a24de1-24e6-4089-b9c1-887599be8b08")
 		(effects
@@ -17606,7 +17621,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GND"
+	(gr_text "GND (HP)"
 		(at 96.4746 42.0302 0)
 		(layer "B.SilkS")
 		(uuid "607a01c7-08bd-4958-a300-bb42c2646b9a")
@@ -17736,7 +17751,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "VBUS"
+	(gr_text "VBUS (HP)"
 		(at 96.5 37.4074 0)
 		(layer "B.SilkS")
 		(uuid "988c6fa3-7125-497b-b9bc-0df78e0f60b1")
