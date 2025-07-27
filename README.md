@@ -21,7 +21,7 @@ Pico PD Pro is a development board for USB Power Delivery development with Raspb
 [Enable Serial print for debugging](#enable-serial-debug)
 
 # PicoPD Pro Pinout
-![pinout](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/PicoPD-pinout-diagram.jpg?raw=true)
+![pinout](https://github.com/CentyLab/PicoPD_Pro/blob/main/Document/PicoPD-pinout-diagram.png?raw=true)
 
 
 # Setup for AP33772S objects
